@@ -12,13 +12,13 @@ while True:
     notification.notify(
         title = "Drink Water",
         message = "Take a few sips of water now",
-        timeout = 30
+        timeout = 60*30
         )
 
     
     speak("Drink Water PLease")
 
-    time.sleep(30)
+    time.sleep(60 * 30)
     
 
     
